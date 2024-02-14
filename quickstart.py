@@ -37,7 +37,7 @@ def main():
       token.write(creds.to_json())
 
   try:
-    service = build("docs", "v1", credentials=creds)
+    service = build("docs", "final", credentials=creds)
 
     # Retrieve the documents contents from the Docs service.
     document = service.documents().get(documentId=DOCUMENT_ID).execute()

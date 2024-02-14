@@ -6,7 +6,9 @@ channels:
 dependencies:
   - python >= 3.10.7
   - flake8
+  - gh
   - google-api-python-client
   - google-auth-httplib2
   - google-auth-oauthlib
   - jupyterlab
+  - oauth2client
